@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F84D09"
+            android:gravity="center"
+            android:text="Formulario de Registros"
+            android:textColor="#090909"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Marca:"
+            android:textColor="#FD050000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ingrese Marca"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Modelo:"
+            android:textColor="#FD050000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ingrese Modelo"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Cilin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cilindraje:"
+            android:textColor="#FD050000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditCilin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Cilindraje en KM"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Ano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Año:"
+            android:textColor="#FD050000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Año de matricula"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Aceite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Cambio de Aceite:"
+            android:textColor="#FD050000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditAceite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ultimo cambio de aceite"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
